@@ -1,0 +1,22 @@
+Server: Listening for packets on port 8080...
+Received SEQ: 0 | DATA: A | Status: In Order
+Received SEQ: 1 | DATA: B | Status: In Order
+Received SEQ: 2 | DATA: C | Status: In Order
+Received SEQ: 4 | DATA: D | Status: Packet Loss (Missing SEQ: 3)
+Received SEQ: 5 | DATA: E | Status: In Order
+Received SEQ: 5 | DATA: F | Status: Duplicate
+Received SEQ: 5 | DATA: G | Status: Duplicate
+Received SEQ: 8 | DATA: H | Status: Packet Loss (Missing SEQ: 6 to 7)
+Received SEQ: 9 | DATA: I | Status: In Order
+Received SEQ: 8 | DATA: J | Status: Duplicate
+Received SEQ: 11 | DATA: K | Status: Packet Loss (Missing SEQ: 10)
+Received SEQ: 12 | DATA: L | Status: In Order
+Received SEQ: 13 | DATA: M | Status: In Order
+Received SEQ: 14 | DATA: N | Status: In Order
+Received SEQ: 18 | DATA: O | Status: Packet Loss (Missing SEQ: 15 to 17)
+Received SEQ: 16 | DATA: P | Status: Out of Order
+Received SEQ: 17 | DATA: Q | Status: Out of Order
+Received SEQ: 18 | DATA: R | Status: Duplicate
+Received SEQ: 19 | DATA: S | Status: In Order
+Received SEQ: 20 | DATA: T | Status: In Order
+Received STOP. Terminating server.
